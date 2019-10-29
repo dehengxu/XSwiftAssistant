@@ -1,18 +1,18 @@
 {
   "name": "XSwiftAssistant",
   "version": "0.1.0",
-  "summary": "A short description of XSwiftAssistant.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xudeheng/XSwiftAssistant",
+  "summary": "XSwiftAssistant was born to supply a light required features, less is better.",
+  "description": "XSwiftAssistant was born to supply a light required features, less is better.",
+  "homepage": "https://github.com/dehengxu/XSwiftAssistant",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "xudeheng": "dehengxu@outlook.com"
+    "dehengxu": "dehengxu@outlook.com"
   },
   "source": {
-    "git": "https://github.com/xudeheng/XSwiftAssistant.git",
+    "git": "https://github.com/dehengxu/XSwiftAssistant.git",
     "tag": "0.1.0"
   },
   "platforms": {

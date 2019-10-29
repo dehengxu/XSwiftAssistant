@@ -14,10 +14,11 @@ import XSwiftAssistant
 class TestCGColorX: QuickSpec {
     
     override func spec() {
-//        describe("test CGColor ") {
-//
-//        }
-        //expect(UIColor.red.cgColor == CGColor.)
+        describe("test CGColor ") {
+            it("black of CGColor and UIColor should be equal in CGColor:", closure: {
+               expect(CGColor.black).to(equal(UIColor.black.cgColor))
+            })
+        }
     }
     
 }

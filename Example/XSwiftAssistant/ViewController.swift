@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        if CGColor.black == UIColor.black.cgColor {
+            print("CGColor.black equal UIColor.black.")
+        }
     }
 
     override func didReceiveMemoryWarning() {
