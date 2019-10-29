@@ -14,9 +14,10 @@ import XSwiftAssistant
 class TestCGColorX: QuickSpec {
     
     override func spec() {
-        describe("test CGColor ") {
-            
-        }
+//        describe("test CGColor ") {
+//
+//        }
+        //expect(UIColor.red.cgColor == CGColor.)
     }
     
 }
