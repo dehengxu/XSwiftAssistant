@@ -12,7 +12,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		742EE8602368408F007F7619 /* TestCGColorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742EE85E2368408C007F7619 /* TestCGColorX.swift */; };
 		B8E9373831F997A65CAECBB2 /* Pods_XSwiftAssistant_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B357AA5A703A0BFF8E3EC9 /* Pods_XSwiftAssistant_Tests.framework */; };
 		DA7B76601DEA519246EAF015 /* Pods_XSwiftAssistant_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461791EA4025625554D7707D /* Pods_XSwiftAssistant_Example.framework */; };
 /* End PBXBuildFile section */
@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0B93A72DAA57A578C9EC688E /* Pods-XSwiftAssistant_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Tests/Pods-XSwiftAssistant_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26B357AA5A703A0BFF8E3EC9 /* Pods_XSwiftAssistant_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSwiftAssistant_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		278974A1C90A81FB275AB616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2FE180949BBA76F59AEF57FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		278974A1C90A81FB275AB616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2FE180949BBA76F59AEF57FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		461791EA4025625554D7707D /* Pods_XSwiftAssistant_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSwiftAssistant_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* XSwiftAssistant_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSwiftAssistant_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		640E300E8EFFC441275B177E /* Pods-XSwiftAssistant_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Tests.release.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Tests/Pods-XSwiftAssistant_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7082B582A6AD0AAC6DA2DB5A /* Pods-XSwiftAssistant_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Example.release.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Example/Pods-XSwiftAssistant_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B3E997237E1CD62F8FB24D7 /* XSwiftAssistant.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XSwiftAssistant.podspec; path = ../XSwiftAssistant.podspec; sourceTree = "<group>"; };
+		742EE85E2368408C007F7619 /* TestCGColorX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCGColorX.swift; sourceTree = "<group>"; };
+		8B3E997237E1CD62F8FB24D7 /* XSwiftAssistant.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XSwiftAssistant.podspec; path = ../XSwiftAssistant.podspec; sourceTree = "<group>"; };
 		ECDF8441E1D5AF2A861868E4 /* Pods-XSwiftAssistant_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Example.debug.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Example/Pods-XSwiftAssistant_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +78,6 @@
 				0B93A72DAA57A578C9EC688E /* Pods-XSwiftAssistant_Tests.debug.xcconfig */,
 				640E300E8EFFC441275B177E /* Pods-XSwiftAssistant_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +129,7 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				742EE85E2368408C007F7619 /* TestCGColorX.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				742EE8602368408F007F7619 /* TestCGColorX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

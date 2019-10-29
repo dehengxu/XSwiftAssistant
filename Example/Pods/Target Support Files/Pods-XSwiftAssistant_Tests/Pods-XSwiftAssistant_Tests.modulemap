@@ -1,0 +1,6 @@
+framework module Pods_XSwiftAssistant_Tests {
+  umbrella header "Pods-XSwiftAssistant_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

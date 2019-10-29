@@ -1,0 +1,6 @@
+framework module XSwiftAssistant {
+  umbrella header "XSwiftAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}
