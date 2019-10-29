@@ -14,7 +14,7 @@ extension String {
     /// Get class from string in default namespace
     ///
     /// - Returns: AnyClass or Nil if not found.
-    func getClass() -> AnyClass? {
+    public func getClass() -> AnyClass? {
         let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String;
         return Bundle.main.classNamed("\(namespace).\(self)")
     }
@@ -23,7 +23,7 @@ extension String {
     ///
     /// - Parameter name: namespace
     /// - Returns: AnyClass or Nil if not found.
-    func getClass(InNamespace name: String) -> AnyClass? {
+    public func getClass(InNamespace name: String) -> AnyClass? {
         return Bundle.main.classNamed("\(name).\(self)")
     }
     
