@@ -9,6 +9,7 @@
 import UIKit
 import Quick
 import Nimble
+//@testable
 import XSwiftAssistant
 
 class TestCGColorX: QuickSpec {

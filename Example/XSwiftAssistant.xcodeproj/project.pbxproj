@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		742EE8602368408F007F7619 /* TestCGColorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742EE85E2368408C007F7619 /* TestCGColorX.swift */; };
+		742EE86323692F40007F7619 /* TestStringPlusClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742EE86123692F3B007F7619 /* TestStringPlusClass.swift */; };
+		747162CC23698B6E00744911 /* TestImagePlusAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747162CB23698B6E00744911 /* TestImagePlusAssistant.swift */; };
 		B8E9373831F997A65CAECBB2 /* Pods_XSwiftAssistant_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B357AA5A703A0BFF8E3EC9 /* Pods_XSwiftAssistant_Tests.framework */; };
 		DA7B76601DEA519246EAF015 /* Pods_XSwiftAssistant_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461791EA4025625554D7707D /* Pods_XSwiftAssistant_Example.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		640E300E8EFFC441275B177E /* Pods-XSwiftAssistant_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Tests.release.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Tests/Pods-XSwiftAssistant_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7082B582A6AD0AAC6DA2DB5A /* Pods-XSwiftAssistant_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Example.release.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Example/Pods-XSwiftAssistant_Example.release.xcconfig"; sourceTree = "<group>"; };
 		742EE85E2368408C007F7619 /* TestCGColorX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCGColorX.swift; sourceTree = "<group>"; };
+		742EE86123692F3B007F7619 /* TestStringPlusClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStringPlusClass.swift; sourceTree = "<group>"; };
+		747162CB23698B6E00744911 /* TestImagePlusAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImagePlusAssistant.swift; sourceTree = "<group>"; };
 		8B3E997237E1CD62F8FB24D7 /* XSwiftAssistant.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XSwiftAssistant.podspec; path = ../XSwiftAssistant.podspec; sourceTree = "<group>"; };
 		ECDF8441E1D5AF2A861868E4 /* Pods-XSwiftAssistant_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSwiftAssistant_Example.debug.xcconfig"; path = "Target Support Files/Pods-XSwiftAssistant_Example/Pods-XSwiftAssistant_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +134,8 @@
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 				742EE85E2368408C007F7619 /* TestCGColorX.swift */,
+				742EE86123692F3B007F7619 /* TestStringPlusClass.swift */,
+				747162CB23698B6E00744911 /* TestImagePlusAssistant.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -359,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				747162CC23698B6E00744911 /* TestImagePlusAssistant.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				742EE8602368408F007F7619 /* TestCGColorX.swift in Sources */,
+				742EE86323692F40007F7619 /* TestStringPlusClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

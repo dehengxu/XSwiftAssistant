@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         if CGColor.black == UIColor.black.cgColor {
             print("CGColor.black equal UIColor.black.")
         }
+
     }
 
     override func didReceiveMemoryWarning() {

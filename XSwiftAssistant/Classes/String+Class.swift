@@ -23,8 +23,12 @@ extension String {
     ///
     /// - Parameter name: namespace
     /// - Returns: AnyClass or Nil if not found.
-    public func getClass(InNamespace name: String) -> AnyClass? {
+    public func getClass(inNamespace name: String) -> AnyClass? {
         return Bundle.main.classNamed("\(name).\(self)")
+    }
+    
+    public func classNameAppend(namespace name: String) -> String {
+        return String(format: "\(name).%@", self)
     }
     
 }

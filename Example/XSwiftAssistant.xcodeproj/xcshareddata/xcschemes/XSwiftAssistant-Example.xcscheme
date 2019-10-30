@@ -51,6 +51,11 @@
                BlueprintName = "XSwiftAssistant_Tests"
                ReferencedContainer = "container:XSwiftAssistant.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "TestCGColorX">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
